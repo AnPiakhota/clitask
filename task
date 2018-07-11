@@ -1,0 +1,24 @@
+Ownstr Golang Test
+We want you to build a command line application that parse a list of URLs from an input file.
+The tool must contact these URLs and output the headers, response code and latency into an output file.
+An example input file called `urls` is supplied with this README
+## Functional Requirements
+The path to the input file must be configurable.
+Allowing the user to specify what file to use at runtime.
+The path to the output file must be configurable.
+Allowing the user to specifiy where to output the results.
+The application must support two output formats: JSON and plain text.
+The user must be able to choose the output format at runtime.
+All the above configurable options must have sensible default values
+
+https://golang.org
+https://www.google.com
+https://www.bbc.co.uk
+https://www.github.com
+https://www.gitlab.com
+https://www.duckduckgo.com
+https://www.atlasian.com
+https://www.twitter.com
+https://www.facebook.com
+
+
